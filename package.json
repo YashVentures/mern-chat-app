@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
- "scripts": {
-  "start": "nodemon backend/server.js",
-  "start:prod": "node backend/server.js"
-},
+  "scripts": {
+    "start": "nodemon backend/server.js",
+    "start:prod": "node backend/server.js",
+    "build": "cd frontend && npm install && npm run build" 
+  },
   "author": "Yash Bhadauriya",
   "license": "ISC",
   "dependencies": {
