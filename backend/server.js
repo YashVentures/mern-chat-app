@@ -50,7 +50,7 @@ const server = app.listen(
 const io = require("socket.io")(server, {
   pingTimeout: 60000,
   cors: {
-    origin: "http://localhost:3000", // You can change this to your Render URL in production
+    origin: "https://beamish-sunburst-fb56a5.netlify.app", // You can change this to your Render URL in production
   },
 });
 
