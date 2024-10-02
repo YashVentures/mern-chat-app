@@ -4,9 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon backend/server.js",
-    "start:prod": "node backend/server.js",
-    "build": "cd frontend && npm install && npm run build" 
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",  
+    "build": "cd frontend && npm install && npm run build"
   },
   "author": "Yash Bhadauriya",
   "license": "ISC",
@@ -18,8 +18,10 @@
     "express-async-handler": "^1.2.0",
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^6.8.4",
-    "nodemon": "^2.0.20",
     "react-phone-number-input": "^3.2.19",
     "socket.io": "^4.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
   }
 }
