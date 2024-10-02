@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "scripts": {
-    "start": "nodemon backend/server.js"
-  },
-  "author": "Akshay Sharma",
+ "scripts": {
+  "start": "nodemon backend/server.js",
+  "start:prod": "node backend/server.js"
+},
+  "author": "Yash Bhadauriya",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
