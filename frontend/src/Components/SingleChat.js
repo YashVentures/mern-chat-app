@@ -1,7 +1,6 @@
 import {
   Avatar,
   Box,
-  Button,
   Divider,
   FormControl,
   IconButton,
@@ -34,7 +33,7 @@ const MessaeBox = styled.div`
   }
 `;
 
-const ENDPOINT = "https://mern-chat-app-1-n0d9.onrender.com";
+const ENDPOINT = "https://mern-chat-app-1-n0d9.onrender.com/";
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
